@@ -1,0 +1,331 @@
+.main{
+	background-image: url(gomech.webp);
+	
+	background-size:cover;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	height: 700px;
+	width:100%;
+	margin-top: -15px;
+
+	
+	
+}	
+.navbar img{
+	margin-right: 100px;
+}
+
+.navbar li{
+    
+	font-size:150%;
+	display:inline-block;
+    color:whitesmoke;
+	margin: 10px;
+   margin-top: 25px;
+   top: 0px;
+
+
+  
+   
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.navbar img{
+	margin-top: 10px;
+}
+ .navbar .active{
+	height: 35px;
+	width: 60px;
+	background-color:red;          
+	color:black;
+	border-radius: 5px;
+	
+
+}
+	.navbar .more:hover{
+		color: red;
+	}
+	.center{
+		background-color: whitesmoke;
+		width: 68%;
+		position: sticky;
+		margin-top:-15px;
+		top: 0px;
+		margin-top: 5px;
+		font-weight: bolder;
+		font-size: 15px;
+		
+		
+		
+	}
+	.center img{
+		width: 30px;
+		height: 30px;
+		
+	}
+	.center li{
+		display: inline-block;
+	    font-size: 99%;
+		padding: 5px;
+		margin: 10px;
+		color: #24262b;
+		
+	}
+	.center li:hover{
+		color: red;
+	}
+	.car{
+		margin-top:80px;
+		width: 850px;
+		height: 500px;
+		margin-top: 0px;
+		margin-left: 10px;
+	
+	}
+	.city .service{
+		margin-top: 5px;
+		flex-wrap:wrap;
+	}
+	
+.spare{
+	
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+	gap: 20px ;
+	width: 90%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+	
+}
+.spare .parts{
+
+ background-color:whitesmoke;
+ width: 50%;
+ box-shadow: 0.5px 0.5px 0.5px 0.5px gainsboro;
+ 
+ 
+}
+.spare .parts:hover{
+	transform:scale(0.9,0.9);
+	transition-duration: 1s;
+}
+.spare a{
+	text-decoration: none;
+	color: #24262b;
+}
+.spare a:hover{
+	color: red;
+
+}
+.miles img{
+
+	margin:20px;
+
+}
+.miles img:hover{
+	transform:scale(0.9,0.9);
+	transition-duration: 1s;
+}
+.curated{
+	
+	display: flex;
+	justify-content:center ;
+	text-align: center;
+	margin: 10px;
+	gap: 10px ;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bolder;
+	width: 900px;
+	
+}
+.curated a{
+	text-decoration: none;
+	color: #24262b;
+}
+.curated a:hover{
+	
+	color:red;
+}
+.heading h2{
+font-weight:bolder; 
+}
+.curated .custom{
+ 
+ background-color: whitesmoke;
+ width: 500px;
+ 
+}
+.curated .custom:hover{
+	transform:scale(0.9,0.9);
+	transition-duration: 1s;
+}
+
+.form{
+	position: fixed;
+	top: 60px;
+	width: 400px;
+	height: 400px;
+	right:30px;
+	background-color:whitesmoke;
+	box-shadow: 2px 2px 5px 5px gray;
+	float: right;
+	border-radius: 10px;
+	
+}
+.form p{
+	color: red;
+}
+.form button{
+	
+	margin-top: -10px;
+	margin-left: 80px;
+	width: 250px;
+	height: 50px;
+	color: black;
+	background-color: rgb(251, 39, 39);
+	font-size: 20px;
+	font-weight: bolder;
+}
+.form button:hover{
+	color: white;
+}
+.form img{
+	margin-top: -10px;
+	margin-left: 80px;
+	width: 200px;
+	height: 150px;
+}
+.form h1{
+	
+	margin-top: 20px;
+	margin-left: 65px;
+}
+.form p{
+	margin-left: 70px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form select{
+	width: 80%;
+	height: 10%;
+	margin-left: 50px;
+	box-shadow: 10px;
+}
+.slideshow img{
+	width: 800px;
+	height: 400px;
+}
+.workshop img{
+	width: 200px;
+	margin:20px;
+	
+}
+
+.accordion {
+	background-color: #eee;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	font-weight: bolder;
+	transition: 0.4s;
+  }
+  
+  
+  .active, .accordion:hover {
+	background-color: #ccc;
+  }
+  
+  .panel {
+	padding: 0 18px;
+	background-color: gray;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .choice{
+	background-color: whitesmoke;
+	height: 130%;
+	width: 67%;
+	margin-left:10px;
+  }
+  .choice h4{
+	font-weight: bolder;
+	font-size: 20px;
+  }
+  .choice li{
+	font-size: 15px;
+	font-weight: bolder;
+  }
+  .choice p{
+	font-style:initial;
+    
+  }
+  hr{
+	background-color: red;
+	height: 2px;
+	width:30%;
+  }
+  .workshop iframe{
+	width: 900px;
+	height: 400px;
+  }
+  
+  .footer{
+	display: flex;
+	position: relative;
+	flex-wrap: wrap;
+	gap:120px;
+	background-color:#24262b;
+	color:white;
+	
+}
+.footer h1 {
+	font-size: 30px;
+	margin-left: 0px;
+	color: red;
+}
+.footer  p{
+	margin-left: 40px;
+	
+}
+.footer a{
+	text-decoration: none;
+	color:white;
+}
+
+.footer p:hover{
+	color: red;
+}
+.content{
+	margin-left: 20px;
+	margin-left: px;
+}
+.accordion{
+	width: 900px;
+	background-color: whitesmoke;
+}
+.accordion-header button:hover{
+	background-color: rgb(255, 125, 125);
+}
+.accordion-header button{
+ font-weight: bolder;
+ 
+}
+.ftco-section{
+background-color: #e36b69;
+
+}
+.container{
+	display: flex;
+	justify-content: left;
+
+}
